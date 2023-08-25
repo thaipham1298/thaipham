@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:id="@+id/frame_layout"
+                android:layout_width="match_parent"
+                android:layout_above="@id/bg_nav"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:id="@+id/bg_nav"
+                android:background="#F5F5F5"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content">
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_bottom_nav"
+                    app:itemBackground="@drawable/tab_bg_nav"
+                    app:itemIconSize="30dp"
+                    app:labelVisibilityMode="labeled"
+                    app:menu="@menu/menu_bottom" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fl_scan"
+            android:src="@drawable/baseline_add_24"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

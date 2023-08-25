@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BaseApp</string>
+
+    <string name="title_intro_1">Document Organization </string>
+    <string name="title_intro_2">PDF Viewing and Navigation</string>
+    <string name="title_intro_3">Sleek and User-Friendly Interface</string>
+
+    <string name="title_back_intro">Back</string>
+    <string name="intro_next">Next</string>
+
+    <string name="content_intro_1">Folder-based organization for managing multiple PDFs </string>
+    <string name="content_intro_2">Page navigation through swiping or using navigation buttons.</string>
+    <string name="content_intro_3">Our app boasts an intuitive interface that guides you through the conversion process step by step</string>
+
+    <string name="splash_title">This action can contain ads</string>
+
+    <string name="facebook_app_id" translatable="false"></string>
+    <string name="facebook_client_token" translatable="false"></string>
+    <string name="app_flyer" translatable="false">LikYKU2zUYTct7BoQ7MuJY</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    // policy
+    <string name="privacy_policy_link">https://biuustudio.netlify.app/policy</string>
+
+    <string name="title_dialog_rating_0">Do you like the app?</string>
+    <string name="content_dialog_rating_0">Let us know your experience</string>
+
+    <string name="title_dialog_rating">Oh, no!</string>
+    <string name="content_dialog_rating">Please give us some feedback</string>
+
+    <string name="title_dialog_rating_4_5">We love you too!</string>
+    <string name="content_dialog_rating_4_5">Thanks for your feedback</string>
+    <string name="please_feedback">Please feedback</string>
+
+</resources>
